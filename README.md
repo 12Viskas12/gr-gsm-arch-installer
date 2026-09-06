@@ -25,11 +25,14 @@ unsupported; it can desync package versions and break your system
 ## Installation
 
 ```bash
-git clone https://github.com/<USERNAME>/<REPO>.git
-cd <REPO>
-chmod +x install.sh
+git clone https://github.com/12Viskas12/gr-gsm-arch-installer.git
+cd gr-gsm-arch-installer
 ./install.sh
 ```
+
+If you downloaded this as a ZIP instead of using `git clone`, the
+executable permission may be lost — run it with `bash install.sh`
+instead, or `chmod +x install.sh` first.
 
 ## Requirements
 
